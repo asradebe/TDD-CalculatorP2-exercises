@@ -37,13 +37,13 @@ class Calculator {
 
     let str = new Calculator();
 
-    console.log(str.add(1, 2))
-    console.log(str.lastResult())
-    console.log(str.add(str.lastResult(), 8))
-    console.log(str.multiply(4, 5))
-    console.log(str.lastResult())
-    console.log(str.multiply(str.lastResult(), 5))
-    console.log(str.set_slot(1))
-    console.log(str.get_slot(1))
-    console.log(str.add(str.get_slot(1), 6))
-    console.log(str.multiply(str.get_slot(1), 2))
+    str.add(1, 2)
+    str.lastResult()
+    str.add(str.lastResult(), 8)
+    str.multiply(4, 5)
+    str.lastResult()
+    str.multiply(str.lastResult(), 5)
+    str.set_slot(1)
+    str.get_slot(1)
+    str.add(str.get_slot(1), 6)
+    str.multiply(str.get_slot(1), 2)
